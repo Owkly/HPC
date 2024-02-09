@@ -17,6 +17,7 @@
                 to make as clear as possible the physics principle of the simulation.
 */
 
+
 /* one can change the matter of the heatsink, its size, the power of the CPU, etc. */
 #define ALUMINIUM /* ALUMINIUM, COPPER, GOLD, IRON */
 #define FAST /* MEDIUM is faster, and FAST is even faster (for debugging) */

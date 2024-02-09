@@ -1,7 +1,9 @@
 # Academic High Performance Computing Projects
 
 ## Description:
-This repository contains two academic projects focusing on High Performance Computing (HPC), specifically utilizing MPI (Message Passing Interface) and OpenMP with intrinsic optimizations (AVX and NEON).
+This repository contains two academic projects focusing on High Performance Computing (HPC), specifically utilizing MPI (Message Passing Interface) and OpenMP with intrinsic optimizations (AVX and NEON). 
+And Both were implemented in C.
+
 
 ### Project Details:
 - **Supervisor:** Charles Bouillaguet
