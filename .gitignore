@@ -1,1 +1,13 @@
 .vscode
+MPI/rendu
+MPI/test
+MPI/heatsink_1D 
+MPI/heatsink_2D 
+MPI/heatsink_sequential
+MPI/steady.txt
+*.WAV
+TP1
+TP2
+TP3
+TP4
+TP5

@@ -1,0 +1,185 @@
+(Exécute 5 fois d'affilée puis intervalle de 15 min pour lancer avec un nombre de threads différent)
+
+code sequentiel
+
+Time: 62.4995
+Time: 62.2118
+Time: 63.5485
+Time: 64.9864
+Time: 62.9943
+
+
+
+
+
+
+
+
+
+
+
+code parallele (fft_omp)
+
+2 threads
+Time: 32.9002
+Time: 35.7219
+Time: 34.404
+Time: 33.1014
+Time: 34.6126
+
+4 threads
+Time: 20.3918
+Time: 21.8899
+Time: 21.6995
+Time: 22.6358
+Time: 23.7724
+
+6 threads
+Time: 15.459
+Time: 16.2498
+Time: 17.1141
+Time: 16.0934
+Time: 18.2172
+
+8 threads
+Time: 14.3863
+Time: 15.3484
+Time: 15.9003
+Time: 16.2019
+Time: 15.6944
+
+10 threads
+Time: 13.7767
+Time: 14.387
+Time: 14.9427
+Time: 14.9073
+Time: 14.5856
+
+12 threads
+Time: 12.4337
+Time: 13.3921
+Time: 13.8478
+Time: 13.705
+Time: 14.174
+
+
+
+
+
+
+
+
+
+
+
+
+code vec (fft_vec)
+
+2 threads
+Time: 18.0798
+Time: 18.6566
+Time: 18.1918
+Time: 18.6221
+Time: 18.3836
+
+4 threads
+Time: 12.7193
+Time: 12.8613
+Time: 12.8465
+Time: 12.6606
+Time: 13.0728
+
+6 threads
+Time: 9.71191
+Time: 10.4119
+Time: 10.9874
+Time: 10.0714
+Time: 10.3927
+
+8 threads
+Time: 9.17135
+Time: 9.37708
+Time: 9.15356
+Time: 9.33972
+Time: 9.14766
+
+10 threads
+Time: 8.08973
+Time: 8.67465
+Time: 8.65504
+Time: 8.97191
+Time: 8.25383
+
+12 threads
+Time: 7.46966
+Time: 7.40905
+Time: 7.56359
+Time: 8.72733
+Time: 8.23306
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fft_omp
+
+n = 1048576 (1 coeur)
+Time: 0.940899
+n = 2097152 (2 coeurs)
+Time: 0.964082
+n = 4194304 (4 coeurs)
+Time: 1.22872
+n = 8388608 (6 coeur)
+Time: 1.79421
+n = 16777216 (8 coeurs)
+Time: 3.63619
+n = 33554432 (10 coeurs)
+Time: 6.6786
+n = 67108864 (12 coeurs)
+Time: 12.5148
+
+
+
+
+
+
+
+
+
+
+fft_vec
+
+n = 1048576 (1 coeur)
+Time: 0.496051
+Time: 0.940899
+n = 2097152 (2 coeurs)
+Time: 0.547263
+n = 4194304 (4 coeurs)
+Time: 0.782791
+n = 8388608 (6 coeur)
+Time: 1.25961
+n = 16777216 (8 coeurs)
+Time: 2.1385
+n = 33554432 (10 coeurs)
+Time: 3.66355
+n = 67108864 (12 coeurs)
+Time: 7.20741
